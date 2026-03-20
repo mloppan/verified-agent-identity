@@ -3,14 +3,14 @@ name: Verify Human Identity
 on:
   workflow_dispatch:
     inputs:
-      agent_name:
-        description: 'finder'
+      agent_name: 'mloppan'
+        description: 'mloppan'
         required: true
         default: 'finder'
       agent_description:
-        description: 'finder'
+        description: 'My Agent'
         required: true
-        default: 'finder AI Agent'
+        default: 'My AI Agent'
 
 jobs:
   verify:
